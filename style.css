@@ -1,0 +1,68 @@
+body{
+	background-color:#DAA520;
+  font-family: Arial, sans-serif;
+} 
+main{
+	padding:15px;
+	margin:10px;
+}
+.learn{
+	background-color:white;
+	display:grid;
+	place-items:center;
+	border-radius:10px;
+  border:1px solid black;
+	box-shadow:2px 5px 5px 4px black;
+  margin:auto;
+  padding:25px;
+  width:450px;
+}
+.learn img{
+  width:100%;
+	padding:25px;
+}
+.learn button{
+  border-radius:5px;
+  background-color:#DAA520;
+  border:none;
+  padding:10px;
+  font-size:1em;
+  font-weight:500px;
+  letter-spacing:1px;
+  margin-top:25px;
+  margin-right:auto;
+  transition:0.2s ease;
+}
+.learn button:hover{
+  transform:scale(1.1);
+  background-color:#BA8E23;
+}
+.learn .blog h4{
+  font-size:1em;
+  font-weight:500;
+}
+.learn .blog h2{
+  font-size:2em;
+  font-weight:700;
+}
+.learn .blog p{
+  font-size:1.2em;
+  font-weight:300;
+  color:#364a61;
+}
+.learn .par{
+	display:flex;
+	flex-direction:column-riverse;
+	margin-right:auto;
+}
+
+.learn .par .image {
+    width: auto;
+}
+.learn .par .paph{
+  font-size:1.1em;
+  font-weight:700;
+  margin-right:200px;
+  margin-top:50px;
+
+}
